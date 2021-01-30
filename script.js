@@ -55,8 +55,11 @@ let z; // "undefined" because z has not defined a value.
 
 console.log(typeof name + " " + typeof age + " " + typeof rating); // (string number string)
 
-// Concatenating strings
+// Concatenating strings method 1
 console.log("Hello! My name is " + name + "! I am " + age + " years old. I gave it a rating of " + rating + "." );
+
+// Concatenating strings method 2 template literals `${varName}`
+console.log(`My name is ${name} and I am ${age} years old.`);
 
 
 
