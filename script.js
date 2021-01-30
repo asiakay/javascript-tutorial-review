@@ -53,10 +53,11 @@ const x = null; // (null)
 const y = undefined; // (undefined)
 let z; // "undefined" because z has not defined a value.
 
-console.log(typeof name);
+console.log(typeof name + " " + typeof age + " " + typeof rating); // (string number string)
 
+// Concatenating strings
+console.log("Hello! My name is " + name + "! I am " + age + " years old. I gave it a rating of " + rating + "." );
 
-//console.log("Name: "+ name + " " + "Age: " + age);
 
 
 
