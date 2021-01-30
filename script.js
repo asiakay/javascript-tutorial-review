@@ -100,4 +100,10 @@ console.log(str.split(", "));
   const arrayConst = new Array(5,4,3,2,1);
   console.log(arrayConst);
 
+// Creating an array with bracket notation []
+// If the values being stored in the array are strings, then they need to have quotation marks around each value, between each comma.
+const codingLanguages  
+= ["HTML5", "CSS", "JavaScript"]; 
+//"C#", "HTML5", "JavaScript", "ECMA", "ES6",// "Node.js", "PHP", "Python", "React", //"SQL"]; 
+console.log(codingLanguages);
   
