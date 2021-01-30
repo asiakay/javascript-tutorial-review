@@ -68,6 +68,6 @@ console.log(s.length); // (12)
 console.log(s.toUpperCase());//("HELLO WORLD!")
 // Changing string output to lowercase letters method
 console.log(s.toLowerCase());//("HELLO WORLD!")
-
-
+// pulling a sub string from the main string 
+console.log(s.substring(0,5));//("Hello") displays substring characters from 1st position to 5th position
 
