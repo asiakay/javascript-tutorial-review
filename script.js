@@ -120,4 +120,5 @@ console.log(codingLanguages); // [ 'Python', 'HTML5', 'CSS', 'JavaScript', 'C#',
 // Popping the last value off of the array 
 codingLanguages.pop(); 
 console.log(codingLanguages); // [ 'Python', 'HTML5', 'CSS', 'JavaScript', 'C#' ]
-  
+// Checking to see if something/ variable/ parameter is an array method
+console.log(Array.isArray(codingLanguages)); // (true)
