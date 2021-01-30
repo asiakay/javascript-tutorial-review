@@ -61,8 +61,9 @@ console.log("Hello! My name is " + name + "! I am " + age + " years old. I gave 
 // Concatenating strings method 2 template literals `${varName}`
 console.log(`My name is ${name} and I am ${age} years old.`);
 
-
-
+// counting the number of characters in a string
+const s = "Hello World";
+console.log(s.length);
 
 
 
