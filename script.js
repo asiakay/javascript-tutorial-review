@@ -111,7 +111,7 @@ console.log(codingLanguages[1]);// (CSS) Because our ways are based on the zero 
 // Adding on to the end of an array 
 codingLanguages[3] = "C#";
 console.log(codingLanguages);//([ 'HTML5', 'CSS', 'JavaScript', 'C#' ])
-// Adding on to an array using the push method - Adds the new value onto the array no matter how many values are already in there.  
+// Adding on to the end of an array using the push method - Adds the new value onto the end of the array no matter how many values are already in there.  
 codingLanguages.push("SQL");
 console.log(codingLanguages);
 
