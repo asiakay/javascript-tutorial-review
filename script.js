@@ -106,4 +106,6 @@ const codingLanguages
 = ["HTML5", "CSS", "JavaScript"]; 
 //"C#", "HTML5", "JavaScript", "ECMA", "ES6",// "Node.js", "PHP", "Python", "React", //"SQL"]; 
 console.log(codingLanguages);
+// Accessing one value in an array
+console.log(codingLanguages[1]);
   
