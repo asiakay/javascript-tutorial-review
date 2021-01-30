@@ -76,5 +76,19 @@ console.log(s.substring(0,5).toUpperCase()); // ("HELLO")
 console.log(s.split("")); // ([ 'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', '!' ])
 
 // Creating an array from a (CSV) comma separated list of values in a string  
-const str = "Atlanta, Boston, Chicago, Denver, Indianapolis, Kansas City, Oklahoma City, Portland, Raleigh, San Francisco, Washington DC" // The comma + the space in between the text is identified as the separator 
-console.log(str.split(", "))
+const str = "Atlanta, Boston, Chicago, Denver, Indianapolis, Kansas City, Miami, Oklahoma City, Portland, Raleigh, San Francisco, Washington DC" // The comma + the space in between the text is identified as the separator 
+console.log(str.split(", ")) 
+/* 
+[ 'Atlanta',
+  'Boston',
+  'Chicago',
+  'Denver',
+  'Indianapolis',
+  'Kansas City',
+  'Oklahoma City',
+  'Portland',
+  'Raleigh',
+  'San Francisco',
+  'Washington DC' ]
+  */
+  // Creating arrays from CSV's are  useful for inserting into values into databases 
