@@ -62,8 +62,10 @@ console.log("Hello! My name is " + name + "! I am " + age + " years old. I gave 
 console.log(`My name is ${name} and I am ${age} years old.`);
 
 // counting the number of characters in a string
-const s = "Hello World";
-console.log(s.length);
+const s = "Hello World!";
+console.log(s.length); // (12)
+// Changing string output to uppercase letters method
+console.log(s.toUpperCase());//("HELLO WORLD!")
 
 
 
