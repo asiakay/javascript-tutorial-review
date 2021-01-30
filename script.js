@@ -66,6 +66,8 @@ const s = "Hello World!";
 console.log(s.length); // (12)
 // Changing string output to uppercase letters method
 console.log(s.toUpperCase());//("HELLO WORLD!")
+// Changing string output to lowercase letters method
+console.log(s.toLowerCase());//("HELLO WORLD!")
 
 
 
