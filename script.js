@@ -122,4 +122,4 @@ codingLanguages.pop();
 console.log(codingLanguages); // [ 'Python', 'HTML5', 'CSS', 'JavaScript', 'C#' ]
 // Checking to see if something/ variable/ parameter is an array method
 console.log(Array.isArray(codingLanguages)); // (true)
-console.log(Array.isArray("hello")); // (true) because paramater being evaluated by the method is a string, not an array.
+console.log(Array.isArray("hello")); // (false) because paramater being evaluated by the method is a string, not an array.
