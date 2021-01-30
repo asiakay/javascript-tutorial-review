@@ -53,8 +53,10 @@ const x = null; // (null)
 const y = undefined; // (undefined)
 let z; // "undefined" because z has not defined a value.
 
+console.log(typeof name);
 
-console.log("Name: "+ name + " " + "Age: " + age);
+
+//console.log("Name: "+ name + " " + "Age: " + age);
 
 
 
