@@ -77,7 +77,7 @@ console.log(s.split("")); // ([ 'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l'
 
 // Creating an array from a (CSV) comma separated list of values in a string  
 const str = "Atlanta, Boston, Chicago, Denver, Indianapolis, Kansas City, Miami, Oklahoma City, Portland, Raleigh, San Francisco, Washington DC" // The comma + the space in between the text is identified as the separator 
-console.log(str.split(", ")) 
+console.log(str.split(", ")); 
 /* 
 [ 'Atlanta',
   'Boston',
@@ -92,3 +92,12 @@ console.log(str.split(", "))
   'Washington DC' ]
   */
   // Creating arrays from CSV's are  useful for inserting into values into databases 
+
+  /* Arrays: Variables that hold multiple values
+  */
+
+  // Creating an pre-populated array using the array constructor method syntax "new Array()"
+  const arrayConst = new Array(5,4,3,2,1);
+  console.log(arrayConst);
+
+  
