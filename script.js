@@ -107,5 +107,9 @@ const codingLanguages
 //"C#", "HTML5", "JavaScript", "ECMA", "ES6",// "Node.js", "PHP", "Python", "React", //"SQL"]; 
 console.log(codingLanguages);
 // Accessing one value in an array
-console.log(codingLanguages[1]);
+console.log(codingLanguages[1]);// (CSS) Because our ways are based on the zero index
+// Adding on to the end of an array 
+codingLanguages[3] = "C#";
+console.log(codingLanguages);//([ 'HTML5', 'CSS', 'JavaScript', 'C#' ])
+
   
