@@ -71,4 +71,6 @@ console.log(s.toLowerCase());//("HELLO WORLD!")
 // pulling a sub string from the main string 
 console.log(s.substring(0,5));//("Hello") displays substring characters from 1st position to 5th position
 // Adding / Applying methods on methods 
-console.log(s.substring(0,5).toUpperCase());
+console.log(s.substring(0,5).toUpperCase()); // ("HELLO")
+//Splitting string into an array 
+console.log(s.split("")); // ([ 'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', '!' ])
