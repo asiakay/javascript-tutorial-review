@@ -117,5 +117,7 @@ console.log(codingLanguages); //
 // Adding onto the beginning of an array 
 codingLanguages.unshift("Python");
 console.log(codingLanguages); // [ 'Python', 'HTML5', 'CSS', 'JavaScript', 'C#', 'SQL' ]
-
+// Popping the last value off of the array 
+codingLanguages.pop(); 
+console.log(codingLanguages); // [ 'Python', 'HTML5', 'CSS', 'JavaScript', 'C#' ]
   
